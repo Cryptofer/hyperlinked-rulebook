@@ -11,9 +11,6 @@ export default new Vuex.Store({
         getContents(state) {
             return state.contents
         },
-        getSection: (state) => (id) => {
-            return state.contents.find(section => section.id === id)
-        },
         searchRules: (state) => (query) => {
             const occurances = []
 
