@@ -1,4 +1,4 @@
-# Hpyerlinked rulebook
+# Hyperlinked rulebook
 
 ## Project setup
 ```
