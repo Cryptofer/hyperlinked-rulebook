@@ -1,0 +1,91 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+}
+
+#app {
+    display: flex;
+    height: 100vh;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.modal {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.modal .modal-content {
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+input[type="text"] {
+    padding: 12px;
+    margin-bottom: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+aside {
+    overflow: auto;
+}
+
+aside.files,
+aside.search,
+aside.references {
+    flex: 30%;
+}
+
+aside.contents {
+    flex: 70%;
+}
+
+aside .content {
+    padding: 15px;
+}
+
+.search-results {
+    margin-top: 1em;
+}
+
+.search-results .search-result {
+    display: block;
+    padding: 8px;
+    margin-bottom: 1rem;
+}
+
+.search-results .search-result b {
+    display: block;
+}
+
+.search-results .search-result p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.btn {
+    display: block;
+    padding: 12px;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+    cursor: pointer;
+}
