@@ -13,7 +13,7 @@ body {
 #app {
     display: flex;
     height: 100vh;
-    width: 1600px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -46,14 +46,14 @@ aside {
     overflow: auto;
 }
 
-aside.files,
 aside.search,
 aside.references {
     flex: 30%;
+    max-width: 350px;
 }
 
 aside.contents {
-    flex: 70%;
+    flex: 1;
 }
 
 aside .content {
