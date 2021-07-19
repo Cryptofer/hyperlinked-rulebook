@@ -1,4 +1,4 @@
-# app
+# Hyperlinked rulebook
 
 ## Project setup
 ```
