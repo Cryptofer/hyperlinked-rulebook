@@ -25,7 +25,7 @@ export default {
     methods: {
       createHyperlinks(payload) {
         
-        const matches = payload.matchAll(/(rule|rules|see)?\s\d{3}(\.?)(\d{1,3}([a-z]{1})?)?/g)
+        const matches = payload.matchAll(/(rule|rules|see)?\s\d{3}((\.?)\d{1,3}([a-z]{1})?)?/g)
         for (const match of matches) {
           const rule = match[0].replace('rule ', '').replace('see ', '').replace('rules ', '').replace(' ', '')
           payload = payload.replace(rule, `<a href="#${rule}">${rule}</a>`)
